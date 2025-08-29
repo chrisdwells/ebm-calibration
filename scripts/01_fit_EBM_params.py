@@ -17,11 +17,8 @@ layers = [2, 3]
 
 lengths = [150, 300, 500, 900, 1000, 1800, 2000, 3000, 4000, 5000, 5900]
 
-if not os.path.exists('../data/output'):
-    os.makedirs('../data/output')
-
-if not os.path.exists('../figures'):
-    os.makedirs('../figures')    
+os.makedirs("../figures/supplement", exist_ok=True)
+os.makedirs("../data/output", exist_ok=True)
     
 esm_files = glob.glob('../data/rtmt_tas_anom/tas*nc')
 esms = []

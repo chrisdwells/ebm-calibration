@@ -13,9 +13,6 @@ import xarray
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import numpy as np
-import os
-
-os.makedirs("../figures/", exist_ok=True)
 
 layers = [2,3] 
 
