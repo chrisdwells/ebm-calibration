@@ -1,0 +1,6 @@
+figures/for_paper/*png
+figures/for_paper/supplement/*png
+data/output/*pkl
+data/output/*csv
+scripts/__pycache__/*
+scripts/*.npz

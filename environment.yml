@@ -1,0 +1,16 @@
+name: ebm-calibration
+channels:
+  - conda-forge
+  - nodefaults
+  - chrisroadmap
+dependencies:
+  - python==3.11
+  - fair==2.1.3
+  - filterpy
+  - matplotlib
+  - numpy
+  - netcdf4
+  - pandas
+  - scipy
+  - xarray
+  - python-dotenv
